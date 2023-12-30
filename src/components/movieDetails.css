@@ -1,0 +1,152 @@
+.container-movie_details {
+    min-height: 100%;
+    min-height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+    padding-top: 0;
+    display: grid;
+    grid-template-rows:min-content max-content max-content 1fr 1fr ;
+    background-color: #0D0C11;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 20px;
+    box-sizing: border-box;
+    
+}
+
+.row-1 {
+    grid-row: 1/2;
+    display: flex;
+    align-items: self-start;
+    justify-content: start;
+    gap: 20px;
+    padding-top: 50px; 
+    padding: 30px;
+    /* height: 100%; */
+
+}
+
+.display-img {
+    width: 200px;
+    height: auto;
+    margin-top: 60px;
+
+
+}
+.display-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.details-movie {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    /* height: 100%; */
+    color: #fff;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+
+.details-movie h1  {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.details-movie p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.details-movie .span {
+    color: #FFF;
+    padding-left: 5px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+.rate {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.row-2 {
+    grid-row: 2/3;
+    text-align: left;
+    color: #fff;
+    height: max-content;
+    padding: 30px;
+
+}
+.row-2 h1 {
+    font-family: 1.4rem;
+    font-weight: 600;
+}
+
+.row-2 p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.28px;
+}
+
+.row-2 h1 {
+
+}
+.row-3 {
+    grid-row: 3/4;
+    width: 100%;
+    height: min-content;
+    padding: 30px;
+
+}
+
+.row-3 h1 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 7px 0;
+}
+
+.row-3 p {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.row-3 span {
+    color: #E50914;
+}
+
+.row-4 {
+    grid-row: 4/5;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.row-5{
+    grid-row: 5/6;
+    overflow-y: hidden;
+    padding: 30px;
+
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: max-content;
+    color: #fff;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.title-row h1 {
+    font-size: 1.4rem;
+}

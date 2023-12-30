@@ -1,0 +1,92 @@
+.navbar {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 30px;
+    /* background-color: rgba(0, 0, 0, 0.986); */
+    position: absolute;
+    z-index: 500;
+}
+
+@keyframes zoom {
+    to {
+        transform:  scale(1);
+    }
+
+    from {
+        transform: scale(1.5);
+    }
+}
+
+.items-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+.titleh1 {
+    color: #E50914;
+    font-size: 1.rem;
+}
+
+.icon-title img {
+    width: 40px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+}
+
+.items div {
+    cursor: pointer;
+    
+}
+
+
+.search-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+@keyframes zoom {
+    from {
+        transform:  scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.zoom h2:hover {
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.zoom div:hover {
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}

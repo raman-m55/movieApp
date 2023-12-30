@@ -1,0 +1,7 @@
+.rate-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+

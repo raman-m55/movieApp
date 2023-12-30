@@ -1,0 +1,151 @@
+.container-top-page {
+    padding: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.container-movie {
+    color: #FFF;
+}
+
+.h2-tag {
+    max-width: 1500px;
+    margin: 10px 0;
+
+}
+
+.h2-tag h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.p-tag {
+    max-width: 450px;
+    margin: 10px 0;
+
+}
+
+
+.p-tag p {
+font-size:1rem ;
+font-weight: 400;
+}
+.top-title {
+    background-color: #E50914;
+    border-radius: 100px;
+    display: inline-flex;
+    padding: 9px 16px;
+    align-items: center;
+    gap: 5;
+    margin: 20px 0;
+
+}
+
+.top-title p {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.rate p{
+    color: #FFF;
+}
+
+.rate .icon {
+    width: 100px;
+}
+
+
+.holder-img {
+    width: 100px;
+    height: max-content;
+    margin: 0;
+    border: none;
+    margin: 20px 0;
+    
+}
+
+.holder-img img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.button-tag {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #E50914;
+    border-radius: 100px;
+    padding: 9px 26px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    width: max-content;
+    cursor: pointer;
+    margin: 20px 0;
+
+}
+
+.swiper-class{
+    background-color:#E50914;
+}
+
+/* 
+
+@media screen and  (max-width : 1024px) {
+    .container-top-page  {
+        background-position: right;
+    }
+    .title-top-page h1 {
+        font-size: var(--screen-h1-1000);
+    }
+
+    .childe-slider h2 {
+        font-size: var(--screen-h2-1000);
+    } 
+
+    .childe-slider #dec {
+        font-size: var(--screen-p-1000);
+    }
+    .container-img {
+        width: 60%;
+    }
+}
+
+@media screen and  (max-width : 640px) {
+
+    .container-top-page {
+        margin-bottom: 50px;
+        border: 1px solid black;
+
+    }
+    .slider {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+    }
+    .childe-slider  {
+        align-content: center;
+        justify-content: start;
+        width: 90%;
+    }
+    .childe-img {
+        justify-content: flex-start;
+        width: 90%;
+    }
+    .container-img {
+        width: 40%;
+    }  
+    
+} */

@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+:root {
+    --main-title : 3.5rem ;
+    --dec-title : 2rem ;
+    --cart-title : 1rem ; 
+    --font : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --screen-p-1000 : 0.9rem ;
+    --screen-p-1000 : 0.9rem ;
+    --screen-h1-1000 : 2rem ;
+    --screen-h2-1000 : 1.5rem ; 
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.link {
+    text-decoration: none;
 }
+
+
+
+@keyframes zoom {
+    from {
+        transform:  scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.zoom h2:hover , .zoomB:hover {
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.zoom div:hover {
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+.zoom div:hover {
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+
