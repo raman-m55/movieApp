@@ -6,8 +6,8 @@ export const movieApi = createApi({
     baseQuery : fetchBaseQuery({
         baseUrl : 'https://api.themoviedb.org/3',
         prepareHeaders : (headers) => {
-            headers.set('accept' , 'application/json')
-            headers.set('Authorization' , 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1ZmZmMWQzNzI1OTY5MTYxYmY5ZDFiNTY1ZGQ3ODFlOSIsInN1YiI6IjY1NmUzY2JlM2RjMzEzMDBhY2FiZDQ0MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.X1EEOiHGjVTiz8puQ6c38bBA2u27UHGfIeDS-zatF6g')
+            headers.set(hidden)
+            headers.set(hidden)
             return headers
         }
     }),
